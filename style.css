@@ -1,0 +1,16 @@
+.card{
+  font-family:monospace ;
+  font-size: 20px;
+  display: flex;
+  margin: auto;
+  margin-top: 4em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0.2,0.2);
+  padding:2px 16px ;
+  line-height: 2;
+}
+
+img {
+  float: right;
+  height: 400px;
+  width: 400px ;
+}
