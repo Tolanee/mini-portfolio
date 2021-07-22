@@ -1,16 +1,258 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  height:100vh;
+  margin:0;
+  display:flex; 
+  flex-direction:column; 
+}
+#home-body{
+  background-image: url(./images/home-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+#header {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+   }
+   
+   .logo-container, .main-nav-link{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .logo-container{
+    width: 30%;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+#logo{
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+
+}
+
+#nav{
+  display: flex;
+  height: 10vh;
+  width: 60%;
+}
+.main-nav-link{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-nav-link li{
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-decoration: none;
+ justify-content: space-between;
+ color: rgb(0, 0, 0);
+}
+.intro{
+  margin-top: 1em;
+  font-size: 90px;
+  color: rgb(241, 238, 238);
+  text-align: center;
+}
+.intro span{
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+.home-button{
+  margin: auto;
+  margin-top: 2em;
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .card{
-  font-family:monospace ;
+  font-family: 'Poppins', sans-serif; ;
   font-size: 20px;
   display: flex;
   margin: auto;
-  margin-top: 4em;
+  margin-top: 2em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0.2,0.2);
   padding:2px 16px ;
   line-height: 2;
 }
 
+.card p{
+  color: rgb(0, 0, 0);
+}
 img {
   float: right;
   height: 400px;
   width: 400px ;
+}
+#qualities{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.quality-img{
+  height: 200px;
+  width: 200px;
+}
+
+.qualities-head{
+font-size: 40px ;
+text-align: center;
+color: rgb(255, 255, 255) ;
+margin-top: 1rem;
+}
+
+.desc2{
+  width: 9em;
+  height: 9em;
+  margin: 1rem;
+  padding: 1rem;
+  /* transition: all .5s ease; */
+ }
+ .contact-me{
+   text-align: center;
+   margin-top: 2em;
+ }
+ #contacts{
+   margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.contacts-img{
+  height: 40px;
+  width: 40px;
+}
+#contact-form{
+  display: flex;
+  justify-content:space-between;
+}
+.input{
+  width: 400px;
+   margin: 1em;
+   padding: 1.5em;
+ }
+ .contact-button{
+  margin: auto;
+  margin-top: 0.2em;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.module1 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./images/todo\ img.jpg);
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+.module2 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./images/cleaning\ img.jpg);
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}.module3 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./images/landing-img.jpg);
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}.module4 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./images/loan\ calculator.jpg);
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+.lr p {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: rgb(253, 253, 253);
+  margin: 0;
+}
+
+  footer {
+    clear: both;
+    position: relative;
+    height: 8vh;
+    margin-top:auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 1em;
+}
+.contact-icons{
+display: flex;
+justify-content: space-evenly;
+
+}
+.icon{
+  color: rgb(0, 0, 0)
 }
