@@ -216,13 +216,28 @@ margin-top: 1rem;
   margin: 10px 0 0 10px;
   position: relative;
   float: left;
-}.module4 {
+}
+.module4 {
   background: 
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
     url(./images/loan\ calculator.jpg);
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+.module5 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./images/task\ list.jpg);
   background-size: cover;
   width: 30%;
   height: 200px;
