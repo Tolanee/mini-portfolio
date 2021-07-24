@@ -21,7 +21,6 @@ body{
   height: 10vh;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(255, 255, 255);
    }
    
    .logo-container, .main-nav-link{
@@ -35,7 +34,12 @@ body{
     justify-content: space-around;
     height: 100%;
   }
+#logo-home{
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
 
+}
 #logo{
   font-size: 30px;
   font-weight: bolder;
@@ -59,7 +63,13 @@ body{
 .main-nav-link li{
   list-style: none;
 }
-
+.nav-link-home{
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-decoration: none;
+ justify-content: space-between;
+ color: rgb(255, 253, 253);
+}
 .nav-link {
   font-size: 18px;
   letter-spacing: 3px;
@@ -68,25 +78,27 @@ body{
  color: rgb(0, 0, 0);
 }
 .intro{
-  margin-top: 1em;
   font-size: 90px;
   color: rgb(241, 238, 238);
   text-align: center;
 }
 .intro span{
-  font-size: 50px;
-  margin-bottom: 2rem;
+  color: rgb(253, 157, 122);
+}
+
+.button{
+  display: flex;
 }
 .home-button{
   margin: auto;
   margin-top: 2em;
-  width: 150px;
-  height: 50px;
-  font-size: 30px;
+  width: 8em;
+  height: 2em;
+  font-size: 20px;
   font-weight: 700;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  border: 1px solid white;
+  border: 2px solid rgb(253, 157, 122);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,46 +114,47 @@ body{
   line-height: 2;
 }
 
-.card p{
-  color: rgb(0, 0, 0);
-}
 img {
   float: right;
   height: 400px;
   width: 400px ;
 }
-#qualities{
+#skills{
+  margin-bottom: 4em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
-.quality-img{
-  height: 200px;
-  width: 200px;
+.skills-img{
+  height: 20vh;
+  width: 80%;
 }
 
-.qualities-head{
+.skills-head{
 font-size: 40px ;
 text-align: center;
-color: rgb(255, 255, 255) ;
 margin-top: 1rem;
 }
 
 .desc2{
   width: 9em;
-  height: 9em;
+  height: 5em;
   margin: 1rem;
   padding: 1rem;
-  /* transition: all .5s ease; */
  }
  .contact-me{
    text-align: center;
    margin-top: 2em;
+   
+ }
+
+ .contact-me h1{
+   color: rgb(253, 157, 122);
  }
  #contacts{
-   margin-top: 5em;
+   margin-top: 2em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -154,22 +167,25 @@ margin-top: 1rem;
 }
 #contact-form{
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 .input{
   width: 400px;
    margin: 1em;
    padding: 1.5em;
+   border: 2px solid rgb(253, 157, 122);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0.2,0.5);
+
  }
  .contact-button{
   margin: auto;
   margin-top: 0.2em;
-  width: 150px;
+  width: 180px;
   height: 50px;
   font-size: 18px;
   font-weight: 500;
-  background-color: black;
-  color: rgb(255, 255, 255);
+  background-color: rgb(29, 24, 24);
+  color: rgb(248, 244, 244);
   text-decoration: none;
   border: 1px solid white;
   display: flex;
@@ -257,9 +273,9 @@ margin-top: 1rem;
   footer {
     clear: both;
     position: relative;
-    height: 8vh;
+    height: 5vh;
     margin-top:auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 157, 122);
     text-align: center;
     padding-top: 1em;
 }
@@ -269,5 +285,6 @@ justify-content: space-evenly;
 
 }
 .icon{
-  color: rgb(0, 0, 0)
+  color: rgb(255, 255, 255)
+
 }
