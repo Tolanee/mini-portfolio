@@ -374,8 +374,8 @@ justify-content: space-evenly;
     transition: all 1s ease-out
   }
   .main-nav-link.open{
-    clip-path: circle(1000px at 100% -40% );
-    -webkit-clip-path: circle(1000px at  100% -40% );
+    clip-path: circle(1200px at 100% -40% );
+    -webkit-clip-path: circle(1200px at  100% -40% );
   }
   .nav-link{
     color:rgb(255, 240, 240);
