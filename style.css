@@ -13,7 +13,7 @@ body{
   background-image: url(./images/home-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
- 
+  height: 100vh;
 }
 #header {
   display: flex;
@@ -411,12 +411,11 @@ justify-content: space-evenly;
   #skills{
    flex-flow: row wrap;
   }
-  #container{
+  .module1 .module2 .module3 .module4 .module5{
     display: flex;
+    flex-direction: column;
   }
-  .lr{
-    flex-direction: column ;
-  }
+  
   #contacts{
     display: flex;
     flex-direction: column ;
