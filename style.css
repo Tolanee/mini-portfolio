@@ -78,7 +78,7 @@ body{
  color: rgb(0, 0, 0);
 }
 .intro{
-  margin-top: 2em;
+  margin-top: auto;
   font-size: 70px;
   color: rgb(241, 238, 238);
   text-align: center;
@@ -203,7 +203,7 @@ margin-top: 1rem;
   display: flex;
   flex-flow: row wrap;
 }
-.module1 {
+  .module1 {
   background: 
     linear-gradient(
       rgba(0, 0, 0, 0.6),
@@ -270,6 +270,7 @@ margin-top: 1rem;
   margin: 10px 0 0 10px;
   position: relative;
 }
+
 
 .lr p {
   font-family: 'Roboto', sans-serif;
@@ -356,15 +357,13 @@ justify-content: space-evenly;
 }
 
   .main-nav-link{
-    background:rgb(0,0,0);
-    background: transparent\5;
-    background:rgba(0,0,0,0.4);
+    background:rgba(20, 20, 20, 0.4);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
     zoom: 1;
     position: absolute;
-    height:92vh;
+    height:50vh;
     width: 100%;
-    margin-left: 100%;
+    margin-left: 70%;
     right: 0px;
     top: 8vh;
     display: flex;
@@ -410,6 +409,10 @@ justify-content: space-evenly;
   }
   #skills{
    flex-flow: row wrap;
+  }
+  #container div{
+    display: flex;
+    flex-direction: column;
   }
   .module1 .module2 .module3 .module4 .module5{
     display: flex;
