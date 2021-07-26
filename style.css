@@ -405,10 +405,19 @@ justify-content: space-evenly;
   }
   img {
     height: 300px;
-    width: 300px ;
+    width: 300px;
   }
   #skills{
-   flex-flow: row wrap;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .skills-img{
+    height: 12vh;
+    width: 100%;
+  }
+  .desc2{
+    align-items: center;
+    
   }
   #container div{
     display: flex;
@@ -427,11 +436,7 @@ justify-content: space-evenly;
   .contact-me h1{
     font-size: 1.3em;
   }
-  .desc2{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
+  
   #contact-form{
     display: flex;
     flex-direction: column;
