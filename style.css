@@ -147,8 +147,8 @@ margin-top: 1rem;
 }
 
 .desc2{
-  width: 9em;
-  height: 5em;
+  width: 9rem;
+  height: 5rem;
   margin: 1rem;
   padding: 1rem;
  }
@@ -262,8 +262,8 @@ margin-top: 1rem;
 }
 .input{
   width: 100%;
-   margin: 1em;
-   padding: 1.5em;
+   margin: 1rem;
+   padding: 1.5rem;
    border: 2px solid rgb(184, 10, 10);
   box-shadow: 0 4px 8px 0 rgba(0,0,0.2,0.5);
 
@@ -359,7 +359,7 @@ justify-content: space-evenly;
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
     zoom: 1;
     position: absolute;
-    height:50vh;
+    height:70vh;
     width: 100%;
     margin-left: 70%;
     right: 0px;
@@ -369,7 +369,7 @@ justify-content: space-evenly;
     clip-path: circle(50px at 100% -40% );
     -webkit-clip-path: circle(50px at  100% -40% );
     transition: all 1s ease-out;
-    position: absolute;
+    z-index: 3;
   }
   .main-nav-link.open{
     clip-path: circle(1200px at 100% -40% );
@@ -416,7 +416,9 @@ justify-content: space-evenly;
   }
   .desc2{
     align-items: center;
-    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
   }
   #container div{
     display: flex;
@@ -428,6 +430,7 @@ justify-content: space-evenly;
   .module1 .module2 .module3 .module4 .module5{
     display: flex;
     flex-direction: column;
+    z-index: 1;
   }
   
   #contacts{
@@ -442,9 +445,12 @@ justify-content: space-evenly;
   #contact-form{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .input{
     width: 70%;
+    align-items: center;
   }
   .contact-button{
     margin-top: 0;
