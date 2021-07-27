@@ -173,6 +173,13 @@ margin-top: 1rem;
   margin: 1rem;
   padding: 1rem;
  }
+ .box-div{
+   display: grid;
+   width: 100%;
+   gap: 5px;
+   grid-template-columns: repeat(3, 1fr);
+ }
+
 
  #myBtn {
    
@@ -460,7 +467,15 @@ justify-content: space-evenly;
     display: flex;
     flex-direction: column;
   }
-  
+  .box-div  {
+    /* grid-auto-rows: minmax(30px, auto); */
+   grid-template-columns: repeat(1, 1fr);
+
+  }
+  .box > img{
+    width: 8rem;
+    height: 8rem;
+  }
   #container div{
     display: flex;
     flex-direction: column;
