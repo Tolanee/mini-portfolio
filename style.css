@@ -16,7 +16,8 @@ body{
   width: 100%;
   height: 10vh;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  
    }
    
 .logo-container, .main-nav-link{
@@ -70,6 +71,11 @@ body{
   color:rgb(184, 10, 10);
   border-bottom: 3px solid rgb(184, 10, 10);
 }
+.mobile-nav,
+.menu-icon {
+  display: none;
+}
+
 .intro{
   margin-top: auto;
   font-size: 70px;
@@ -346,6 +352,7 @@ margin: 1rem;
    margin: 1rem;
    padding: 1.5rem;
    border: 2px solid rgb(184, 10, 10);
+   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0.2,0.5);
 
  }
@@ -371,7 +378,7 @@ margin: 1rem;
     position: relative;
     height: 5vh;
     margin-top:auto;
-    background-color: rgb(184, 10, 10);
+    background-color: rgb(184, 10, 10, 0.7);
     text-align: center;
     padding-top: 1em;
 }
@@ -389,6 +396,9 @@ justify-content: space-evenly;
   #header {
     width: 100%;
     height: 7vh;
+    background: rgba(184, 10, 10, 0.7);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+    zoom: 1;
     }
     #logo-home{
       font-size: 15px;
@@ -399,77 +409,62 @@ justify-content: space-evenly;
     #logo{
       font-size: 15px;
       font-weight: bolder;
-      color: rgb(0, 0, 0);
+      color: rgb(255, 253, 253);
     
     }
     
-  nav{
-    width: 70%;
+    
+  #nav{
+    padding: 0 20px;
+    width: 10%;
     position: relative;
     align-items: center;
+    justify-content: flex-end;
+
   }
 
-  .burger div{
-    width: 25px;
-    height: 3px;
-    background:rgb(15, 15, 15);
-    margin-bottom: 5px;
-  }
   
-  .burger{
-      display: block;
-      text-align: center;
-      cursor: pointer;
-      top: 50%;
-      z-index: 2;
-      margin-left:80%;
-
-  }
-  .burger-home{
-    display: block;
-    text-align: center;
-    cursor: pointer;
-    top: 50%;
-    z-index: 2;
-    margin-left:80%;
-
-}
 
   .main-nav-link{
-    background: rgba(184, 10, 10, 0.6);
+    display: none;
+  }
+  
+  .menu-icon{
+    display: block;
+    color: rgb(255, 255, 255);
+    
+  }
+  .mobile-nav{
+    display: none;
+    text-align: right;
+    top:7vh;
+    left: 0;
+    width: 100%;
+    background: rgba(184, 10, 10, 0.7);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
     zoom: 1;
-    position: absolute;
-    height:50vh;
-    width: 100%;
-    margin-left: 70%;
-    right: 0px;
-    top: 8vh;
-    display: flex;
-    flex-direction: column;
-    clip-path: circle(50px at 100% -40% );
-    -webkit-clip-path: circle(50px at  100% -40% );
-    transition: all 1s ease-out;
-    z-index: 3;
+    z-index: 4;
   }
-  .main-nav-link.open{
-    clip-path: circle(1200px at 100% -40% );
-    -webkit-clip-path: circle(1200px at  100% -40% );
-  }
-  .nav-link{
-    color:rgb(255, 255, 255);
-    align-items: center;
+  
+  .mobile-nav li {
+    padding: 10px;
+    align-content: center;
     font-size: 15px;
+    list-style: none;
+    line-height: 10px;
   }
-  .nav-link:hover{
-    color:rgb(252, 252, 252);
-    border-bottom: 3px solid rgb(255, 252, 252);
+  .mobile-nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
   }
-  .nav-link-home{
-    color:white;
-    align-items: center;
-    font-size: 15px;
+  .home a{
+    color: aliceblue;
   }
+  .mobile-nav a:hover{
+    color:rgb(184, 10, 10);
+  }
+  
   .intro{
     font-size: 50px;
   }

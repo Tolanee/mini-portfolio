@@ -1,9 +1,15 @@
 const burger = document.querySelector("#clicked");
-const navLinks = document.querySelector(".main-nav-link");
+const navLinks = document.querySelector(".mobile-nav");
 
 
 burger.addEventListener("click", ()=> {
-  navLinks.classList.toggle("open");
+  if (navLinks.style.display === 'none') {
+    navLinks.style.display = 'block'
+  } 
+  else {
+    navLinks.style.display = 'none'
+  }
+
 });
 
 var thisButton = document.getElementById("myBtn");
