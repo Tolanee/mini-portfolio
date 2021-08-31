@@ -13,7 +13,7 @@ burger.addEventListener("click", ()=> {
 });
 
 var thisButton = document.getElementById("myBtn");
-thisButton.addEventListener("click", goToTop)
+thisButton.addEventListener("click", goToTop);
 
 window.onscroll = function() {scrollFunction()};
 
