@@ -6,7 +6,8 @@
 body{
   font-family: 'Poppins', sans-serif;
   height:100vh;
-  margin:0;
+  width: 100%;
+  margin:0 auto;
   display:flex; 
   flex-direction:column; 
 }
@@ -33,6 +34,7 @@ body{
   }
 
 #logo{
+  padding: 0 30px;
   font-size: 30px;
   font-weight: bolder;
   color: rgb(0, 0, 0);
@@ -92,6 +94,7 @@ body{
   left: 0;
   height: 100%;
   width: 100%;
+  /* margin: 0 auto; */
   z-index: -1;
 }
 .intro span{
@@ -199,6 +202,8 @@ margin: 1rem;
   display: flex;
   flex-flow: row wrap;
 }
+
+
   .module1 {
   background: 
     linear-gradient(
@@ -260,6 +265,32 @@ margin: 1rem;
       rgba(0, 0, 0, 0.6)
     ),
     url(./images/task\ list.jpg);
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+}
+.module6 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./images/calculator.png);
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+}
+.module7 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(./images/counter.png);
   background-size: cover;
   width: 30%;
   height: 200px;
@@ -362,6 +393,7 @@ justify-content: space-evenly;
     
     }
     #logo{
+      padding: 0 20px;
       font-size: 15px;
       font-weight: bolder;
       color: rgb(255, 253, 253);
